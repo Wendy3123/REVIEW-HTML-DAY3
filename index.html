@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <img src="./images/logo.png" alt="logo of four balloons">
+        <ul>
+            <li>
+                <a href="index.html">Home Page</a>
+            </li>
+            <li>
+                <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">Intro to Web Accessibility</a>
+            </li>
+            <li>
+                <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1 Success Criteria List</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WebFiesta: The Online Party Supply Superstore!!</h1>
+        <h2>About Us</h2>
+        <img src="./images/balloons.jpg" alt='picture of many colorful balloons' class="banner"> 
+        <a href="https://pxhere.com/en/photo/1267651">Image source</a>
+        <h3>Come here for all your party supply needs!</h3>
+        <p>Kid's birthday? Grandpa's birthday? Anniversary? Fourth Wedding? You name the celebration, we have what you need!</p>
+        <hr>
+        <h2>Contact Us</h2>
+        <h3>We my take 3-6 business days to respond</h3>
+        <h4>Click the Clear Form button to clear the form or the Submit Form button to submit the form data</h4>
+        <form>
+            <h2>Contact Form</h2>
+            <div>
+                <label for="firstname">Your First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <div>
+                <label for="lastname">Your Last Name:</label> 
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <div>
+                <label for="concern">Concern or Issue:</label>
+                <select name="concern" id="concern">
+                    <option value="1">missing product</option>
+                    <option value="2">billing issue</option>
+                    <option value="3">speak with representative</option>
+                    <option value="4">other</option>
+                </select>
+            </div>
+            <div>
+                Other Notes:
+                <textarea></textarea>
+            </div>
+            <input type="submit" value="Clear Form">
+            <input type="submit" value="Submit Form">
+        </form>
+        <hr>
+        <h2>Directions</h2>
+        <section>
+            <div>
+                <img src="./images/car.png" alt="tiny car logo" aria-label="car commute time"> 20 mins 
+            </div>
+            <div>
+                <img src="./images/bicycle.png" alt="tiny bicycle logo" aria-label="bicycle commute time"> 35 mins
+            </div>
+            <div>
+                <img src="./images/ferry.png" alt="tiny ferry logo" aria-label="ferry commute time"> 50 mins
+            </div>
+            <div>
+                <img src="./images/bus.png" alt="tiny bus logo" aria-label="bus commute time"> 55 mins
+            </div>
+        </section>
+        <div>
+            It's easy peasy to get here to our physical warehouse, just check the transportation mode you'll be using
+        </div>
+        <div>
+            Icons made by <a href="https://www.flaticon.com/authors/fjstudio" title="fjstudio">fjstudio</a> from 
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+    </main>
+    <footer>
+        Thanks for stopping by ❤️ 
+        <div>
+            <img src="./images/logo.png" alt="logo of four colorful balloons">
+            <a href="https://creazilla.com/nodes/64384-colourful-balloons-clipart">Cute logo provided by ElisaRiva via Pixabay</a>
+        </div>
+    </footer>
+</body>
+</html>
